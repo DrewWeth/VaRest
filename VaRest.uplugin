@@ -15,11 +15,14 @@
 		{
 			"Name" : "VaRest",
 			"Type" : "Runtime",
-			"LoadingPhase": "PreDefault"
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": ["Win64"]
 		},
 		{
 			"Name": "VaRestEditor",
-			"Type": "UncookedOnly"
+			"Type": "UncookedOnly",
+			"WhitelistPlatforms": ["Win64"]
 		}
-	]
+	],
+	"PlatformAllowList": ["Win64"]
 }
